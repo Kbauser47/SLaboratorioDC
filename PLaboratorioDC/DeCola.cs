@@ -82,7 +82,7 @@ namespace PLaboratorioDC
                 for(int i = 0; i < ultimo; i++)
                 {
 
-                    decoladatos[i] = decoladatos[+i];
+                    decoladatos[i] = decoladatos[i+1];
 
                 }
 
@@ -90,7 +90,7 @@ namespace PLaboratorioDC
 
             }
 
-                return valor;
+        return valor;
         }
 
 
